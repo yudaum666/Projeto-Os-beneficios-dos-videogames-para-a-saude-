@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+body {
+    font-family: "bebas-neue-regularNeue", sans-serif; /* Define a fonte padrão */
+    background-color: #DDDDDD; /* Cor de fundo da página */
+    display: flex; /* Usa Flexbox para layout */
+    flex-direction: column; /* Alinha os itens na vertical */
+    align-items: center; /* Centraliza os itens horizontalmente */
+    justify-content: center; /* Centraliza os itens verticalmente */
+    height: 100vh; /* Preenche a altura total da viewport */
+    margin: 0;
+    padding: 0;
+    }
+
+    h1{
+        font-size: 2.5rem;
+        color: #000000;
+        text-align: center;
+        letter-spacing: 0.4rem;
+    }
+
+    section{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 3rem;
+    }
+
+    section input{
+        width: 30rem;
+        border: none;
+        padding: 1rem;
+        border-radius: 1.5rem;
+        margin-bottom: 1rem;
+        color: #000000;
+        font-size: 1rem;
+        box-sizing: border-box;
+    }
+
+    section button {
+        padding: 0.8rem 1.2rem;
+        border: none;
+        border-radius: 1.5rem;
+        background-color: #3d50bd;
+        color: #ffffff;
+        font-size: 1rem;
+        cursor: pointer;
+    }
+    .resultados-pesquisa {
+        width: 60rem;
+        height: 46vh;
+        overflow-y: auto;
+        margin-top: 1rem;
+        padding: 1rem;
+        border-radius: 0.6rem;
+    }
+
+    .item-resultado{
+        background: #c9c9c9;
+        border-radius: 0.6rem;
+        padding: 1rem;
+        margin-bottom: 1rem;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    .item-resultado h2 {
+        font-size: 1.5rem;
+        color: #000000;
+    }
+
+    .item-resultado a {
+        text-decoration: none;
+        color: blue;
+    }
+
+    .item-resultado a:hover {
+        text-decoration: underline;
+    }
+
+    .descricao-meta {
+        color: #000000;
+    }
+
+    footer {
+        background-color: #c9c9c9;
+        color: #000000;
+        text-align: center;
+        padding: 0;
+        width: 100%;
+        position: absolute;
+        bottom: 0;
+        font-size: 1rem;
+    }
